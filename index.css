@@ -1,0 +1,24 @@
+body{
+    margin:0;
+}
+ul{
+    background-image: linear-gradient(90deg,#cdffd8,#94b9ff);
+    list-style-type: none;
+    overflow:hidden;
+    margin:0;
+    padding: 20px;
+}
+ul li{
+    float: right;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+}
+.grid-item{
+    padding:30px;
+}
