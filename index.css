@@ -23,8 +23,47 @@ ul li a{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items:center;
+    align-items: center;
+    height: 100vh;
 }
 .grid-item{
     padding:30px;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+i{
+    margin-right:10px;
+}
+.skills{
+    padding:30px;
+    align-items:center;
+    background-image: linear-gradient(90deg,#cdffd8,#94b9ff);
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:20px;
+}
+.ranger{
+    height:5px;
+    border:2px solid black;
+    border-radius:30px;
+}
+.range{
+    height:5px;
+    background-color:#000000;
+    border-radius:30px;
+}
+.extra-skills{
+    background-image: linear-gradient(90deg,#cdffd8,#94b9ff);
+    border-radius:20px;
+    padding-top:1px;
+}
+.project{
+    background-image: linear-gradient(90deg,#cdffd8,#94b9ff);
+    margin:20px;
+    border-radius:20px;
+    padding:30px;
+    align-items:center;
 }
