@@ -24,9 +24,11 @@ ul li a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    height: 100vh;
+    height: fit-content;
 }
 .grid-item{
+    margin-top:80px;
+    margin-bottom: 80px;
     padding:30px;
     align-items:center;
 }
@@ -38,6 +40,8 @@ i{
     margin-right:10px;
 }
 .skills{
+    margin-top:80px;
+    margin-bottom: 80px;
     padding:30px;
     align-items:center;
     background-image: linear-gradient(90deg,#cdffd8,#94b9ff);
@@ -62,8 +66,11 @@ i{
 }
 .project{
     background-image: linear-gradient(90deg,#cdffd8,#94b9ff);
-    margin:20px;
+margin-left: 15px;
+
     border-radius:20px;
     padding:30px;
     align-items:center;
+    margin-top:80px;
+    margin-bottom: 120px;
 }
