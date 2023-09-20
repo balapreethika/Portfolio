@@ -13,7 +13,6 @@ ul{
 ul li{
     float: right;
     display: inline;
-    padding-left: 15px;
     padding-right: 15px;
 }
 ul li a{
