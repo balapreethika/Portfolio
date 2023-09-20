@@ -27,6 +27,7 @@ ul li a{
     height: 100vh;
 }
 .grid-item{
+    padding:30px;
     align-items:center;
 }
 a{
