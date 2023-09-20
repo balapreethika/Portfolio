@@ -7,7 +7,7 @@ ul{
     list-style-type: none;
     overflow:hidden;
     margin:0;
-    width:100%;
+    width:100vw;
     padding: 20px;
 }
 ul li{
@@ -27,7 +27,6 @@ ul li a{
     height: 100vh;
 }
 .grid-item{
-    padding:30px;
     align-items:center;
 }
 a{
