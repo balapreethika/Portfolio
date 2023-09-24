@@ -7,12 +7,11 @@ ul{
     list-style-type: none;
     overflow:hidden;
     margin:0;
-    width:100vw;
+    width:100%;
     padding: 20px;
 }
 ul li{
     float: right;
-    display: inline;
     padding-right: 15px;
 }
 ul li a{
@@ -20,15 +19,15 @@ ul li a{
     color:black;
 }
 .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
-    height: fit-content;
+    padding:20px;
 }
 .grid-item{
     margin-top:80px;
+    flex:1;
     margin-bottom: 80px;
-    padding:30px;
+    padding:20px;
     align-items:center;
 }
 a{
@@ -43,10 +42,9 @@ i{
     margin-bottom: 80px;
     padding:30px;
     align-items:center;
-    background-image: linear-gradient(90deg,#cdffd8,#94b9ff);
-    margin-left:20px;
     margin-right:20px;
     border-radius:20px;
+    flex:1;
 }
 .ranger{
     height:5px;
@@ -65,11 +63,15 @@ i{
 }
 .project{
     background-image: linear-gradient(90deg,#cdffd8,#94b9ff);
-margin-left: 15px;
 width:fit-content;
+flex:1;
     border-radius:20px;
-    padding:10px;
+    padding:20px;
     align-items:center;
     margin-top:80px;
     margin-bottom: 120px;
+}
+.projects{
+    display: flex;
+    padding:10px;
 }
