@@ -69,3 +69,6 @@ i{
     width:fit-content; 
     margin: 80px auto
 }
+ul li a h4{
+    margin:0;
+}
