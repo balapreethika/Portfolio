@@ -80,4 +80,5 @@ button{
     width:fit-content;
     border:none;
     border-radius:5px;
+    font-weight: bold;
 }
