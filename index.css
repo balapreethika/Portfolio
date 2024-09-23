@@ -38,6 +38,9 @@ ul li a{
     padding:30px;
     margin-top: 80px;
 }
+.hidden{
+    display: none;
+}
 a{
     text-decoration: none;
     color:black;
@@ -49,6 +52,7 @@ i{
     flex:1;
     padding:30px;
     border-radius:20px;
+    margin-top:80px;
 }
 .ranger{
     height:5px;
@@ -70,6 +74,12 @@ i{
     border-radius:20px;
     width:fit-content; 
     margin: 80px auto
+}
+.test1 {
+    transition: transform 2s ease; /* Smooth transition for the rotation */
+  }
+.test1:hover{
+    transform: rotateY(360deg); /* Rotate 360 degrees along the Y-axis */
 }
 ul li a h4{
     margin:0;
